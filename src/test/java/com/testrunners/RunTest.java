@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 	//	plugin = {"pretty","html:target/cucumber-html-report","json:target/cucumber-reports/cucumber.json","junit:target/cucumber-reports/cucumber.xml"},
 				plugin = {"pretty","html:target/cucumber-html-report",
 						"json:target/cucumber-reports/cucumber.xml",
-						"json:target/cucumber.json",
+						"json:target/jsonReports/cucumber.json",
 				        "rerun:target/rerun.txt"},
 		//tags = {"@Regression,@Smoke"},
 		glue = {"com.stepdefinitions."},
