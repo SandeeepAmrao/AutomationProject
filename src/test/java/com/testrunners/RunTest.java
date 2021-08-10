@@ -8,9 +8,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = {"src/test/resources/featurefiles"},
 	//	plugin = {"pretty","html:target/cucumber-html-report","json:target/cucumber-reports/cucumber.json","junit:target/cucumber-reports/cucumber.xml"},
-				plugin = {"pretty","html:target/cucumber-html-report",
-						"json:target/cucumber.json",
-				        "rerun:target/rerun.txt"},
+				plugin = {"pretty", "json:target/cucumber.json"},
+				      
 		tags = {"@Regression"},
 		glue = {"com.stepdefinitions."},
 		dryRun = false,
