@@ -123,13 +123,13 @@
                 </executions>
             </plugin>
             <plugin>
-            	<groupId>org.apache.maven.plugins</groupId>
-            	<artifactId>maven-surefire-plugin</artifactId>
-            	<version>2.21.0</version>
-            	<configuration>
-				<excludes>testng.xml</excludes>
-				</configuration>
-            </plugin>
+		        <groupId>org.apache.maven.plugins</groupId>
+		        <artifactId>maven-surefire-plugin</artifactId>
+		        <version>2.18.1</version>
+		        <configuration>
+		          <testFailureIgnore>true</testFailureIgnore>
+		        </configuration>
+      </plugin>
         </plugins>
     </build>
 </project>
