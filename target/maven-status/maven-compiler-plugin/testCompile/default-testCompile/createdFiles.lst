@@ -1,4 +1,4 @@
-com\testrunners\RunTest.class
 com\stepdefinitions\admin\AccountCreation_StepDefinitions.class
 com\stepdefinitions\admin\Admin_StepDefinitions.class
 cucumberProject\CucumberProject\AppTest.class
+com\testrunners\TestRunTest.class

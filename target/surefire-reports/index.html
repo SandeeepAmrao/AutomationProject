@@ -140,10 +140,10 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;1&quot; junit=&quot;true&quot; parallel=&quot;methods&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
-  &lt;test junit=&quot;true&quot; thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; junit=&quot;true&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test junit=&quot;true&quot; thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.testrunners.RunTest&quot;/&gt;
+      &lt;class name=&quot;com.testrunners.TestRunTest&quot;/&gt;
       &lt;class name=&quot;cucumberProject.CucumberProject.AppTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
@@ -188,12 +188,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testApp')
 data.setCell(0, 2, 'cucumberProject.CucumberProject.AppTest')
-data.setCell(0, 3, 150);
+data.setCell(0, 3, 10);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 150 ms</span>
+              <span class="suite-total-time">Total running time: 10 ms</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
