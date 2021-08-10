@@ -30,6 +30,6 @@ Feature: Account Creation
       | name1 |     5 | success |
       | name2 |     7 | Fail    |
 
-      @Regression
+    @smoke
 Scenario: browser open successfully
 When launch browser
